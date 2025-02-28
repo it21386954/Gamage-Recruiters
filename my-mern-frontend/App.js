@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    // Replace this with your backend URL
+    // Replace this with your backend URLi
     axios.get('http://localhost:5000')
       .then((response) => {
         setData(response.data);
@@ -13,7 +13,7 @@ function App() {
       .catch((error) => {
         console.error('There was an error!', error);
       });
-  }, []);
+  }, []); 
 
   return (
     <div className="App">
