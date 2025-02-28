@@ -21,7 +21,7 @@ db.connect((err) => {
   } else {
     console.log('Connected to MySQL server');
   }
-});
+}); 
 
 const app = express();
 const port = process.env.PORT || 8080;
