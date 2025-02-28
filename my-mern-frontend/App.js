@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    // Replace this with your backend URLi
+    // Replace this with your backend URL
     axios.get('http://localhost:5000')
       .then((response) => {
         setData(response.data);
