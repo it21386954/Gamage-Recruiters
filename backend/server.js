@@ -3,7 +3,7 @@ const mysql = require('mysql2');
 const dotenv = require('dotenv');  // To load environment variables from .env file
 const cors = require('cors');
 
-// Initialize dotenv to load environment variables
+// Initialize dotenv to load environment variablesee
 dotenv.config();
 
 // Create MySQL connection
