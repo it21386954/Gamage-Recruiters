@@ -11,30 +11,27 @@ A full-stack web application for Gamage Recruiters, developed using React.js for
 
 - **Frontend**:
   - Built using React.js.
-  - Connects with the Node.js backend to retrieve and display data.
-  - User-friendly interface for easy navigation.
   
 - **Backend**:
   - Built using Node.js and Express.
-  - Connects to MySQL database for storing and retrieving data.
-  - API endpoints for interacting with the data.
+  
 
 - **Database**:
   - MySQL is used for managing the data.
-  - Hosted on Aiven or other cloud platforms for high availability.
+ 
 
 ## Tech Stack
 
 - **Frontend**:
   - React.js
-  - CSS (or any other styling framework like Bootstrap)
-  - Axios (for making HTTP requests)
+  
+  
   
 - **Backend**:
   - Node.js
   - Express
   - MySQL
-  - CORS for enabling cross-origin requests
+  
 
 ## Getting Started
 
